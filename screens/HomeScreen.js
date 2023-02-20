@@ -52,12 +52,12 @@ const HomeScreen = () =>{
         </View>
 
         {/* Body */}
-        <ScrollView className='bg-gray-100'>
+        <ScrollView 
+        className='bg-gray-100'>
           {/* Categories */}
           <Categories />
 
           {/* Featured Rows */}
-
           {/* Featured */}
           <FeaturedRows
             id='1' 
